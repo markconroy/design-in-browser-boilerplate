@@ -8,4 +8,4 @@
 <div class="region-right">
   <?php include('main.php'); ?>
 </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('../includes/layouts/footer/footer.php'); ?>

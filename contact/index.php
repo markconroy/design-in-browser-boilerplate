@@ -4,4 +4,4 @@
   <?php include('../includes/nav.php'); ?>
 </div>
 <?php include('main.php'); ?>
-<?php include('../includes/footer.php'); ?>
+<?php include('../includes/layouts/footer/footer.php'); ?>
