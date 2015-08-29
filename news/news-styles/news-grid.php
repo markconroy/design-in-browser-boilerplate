@@ -1,4 +1,4 @@
-<div class="view-news news-grid">
+<div class="view-news view-grid">
   <div class="views-row odd">
     <?php include('news-styles/news-item-teaser.php'); ?>
   </div>

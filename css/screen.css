@@ -953,6 +953,25 @@ header {
 */
 /**
  * @file
+ * This is the styling for grid view items.
+ */
+@media (min-width: 481px) {
+  /* line 7, ../sass/views/_view-grid.scss */
+  .view-grid .views-row {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 960px) {
+  /* line 7, ../sass/views/_view-grid.scss */
+  .view-grid .views-row {
+    float: left;
+    width: 33%;
+  }
+}
+
+/**
+ * @file
  * This is the styling for .bgcol classes.
  */
 /* line 6, ../sass/classes/_bgcol.scss */

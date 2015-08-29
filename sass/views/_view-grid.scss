@@ -1,0 +1,17 @@
+/**
+ * @file
+ * This is the styling for grid view items.
+ */
+
+.view-grid {
+  .views-row {
+    @include breakpoint($medium) {
+      float: left;
+      width: 50%;
+    }
+    @include breakpoint($large) {
+      float: left;
+      width: 33%;
+    }
+  }
+}
