@@ -944,12 +944,14 @@ header {
 .node-type-news .node-teaser .field-name-body {
   overflow: hidden;
 }
-/* line 10, ../sass/content-types/_news.scss */
-.node-type-news .node-teaser .field-name-field-main-image {
-  float: left;
+@media (min-width: 481px) {
+  /* line 10, ../sass/content-types/_news.scss */
+  .node-type-news .node-teaser .field-name-field-main-image {
+    float: left;
+  }
 }
 
-/* line 16, ../sass/content-types/_news.scss */
+/* line 18, ../sass/content-types/_news.scss */
 .node-type-news .view-mode-full .field-name-field-main-image {
   float: left;
 }
@@ -958,6 +960,10 @@ header {
  * @file
  * This is the styling for grid view items.
  */
+/* line 8, ../sass/views/_view-grid.scss */
+.view-grid .views-row .field-name-field-main-image {
+  float: none;
+}
 @media (min-width: 481px) {
   /* line 7, ../sass/views/_view-grid.scss */
   .view-grid .views-row {

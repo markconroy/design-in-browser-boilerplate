@@ -8,7 +8,9 @@
     overflow: hidden;
   }
   .field-name-field-main-image {
-    float: left;
+    @include breakpoint($medium) {
+      float: left;
+    }
   }
 }
 
