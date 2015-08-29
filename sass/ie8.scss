@@ -1,0 +1,111 @@
+/* Welcome to Compass. Use this file to write IE8 specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie8.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+// use png instead of opacity
+ /**
+ * @file
+ * This is the styling for the .click-here class.
+ */
+/* line 7, ../sass/classes/_click-here.scss */
+
+// button gradients
+// apply now
+.header-right a.cta-button {
+  background-color: #ca3093;
+  top: -50px;
+  &:hover,
+  &:focus {
+    background-color: #6b0f54;
+  }
+}
+
+// home button
+.front-body a.cta-button {
+  background-color: #362ba0;
+  &:hover,
+  &:focus {
+    background-color: #1f1959;
+  }
+}
+
+
+
+.click-here a {
+  // background: url('/images/transparent.png') repeat 50% 0;
+}
+
+/**
+ * @file
+ * This is the styling for .inner class.
+ */
+/* line 6, ../sass/classes/_inner.scss */
+.inner {
+  // background: url('/images/transparent.png') repeat 50% 0;
+}
+
+/*remove transparent from home*/
+.bgimghome .inner {
+    // background: none;
+}
+
+
+// use absolute left positioning instead of display: none;
+// remove site name
+.site-name {
+  position: absolute;
+  left: -10000px;
+}
+
+// site title
+.header-center {
+  // float: none;
+  // margin: auto;
+  // top: 67px;
+  // width: 170px;
+}
+
+// remove apply now button
+.header-right {
+  // display: none;
+}
+
+// font sizes - rem doesn't work in ie8
+.font-size-small {
+  font-size: 12px;   // 12px
+  line-height: 16px;  // 16px
+}
+
+.font-size-medium {
+  font-size: 12px;   // 12px
+  line-height: 16px;  // 16px
+}
+
+.font-size-medium-prog {
+  font-size: 12px;   // 12px
+  line-height: 15px;  // 15px
+}
+
+.font-size-large {
+  font-size: 16px;   // 16px
+  line-height: 34px;  // 34px
+}
+
+.font-size-section {
+  font-size: 19px;   // 19px
+  line-height: 34px;  // 34px
+}
+
+.font-size-largest {
+  font-size: 40px;   // 40px
+  line-height: 40px;  // 40px
+}
+
+
+
+
+
+
+

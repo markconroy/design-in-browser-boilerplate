@@ -1,0 +1,14 @@
+/**
+ * @file
+ * This is the styling for .inner class.
+ */
+
+.inner-container {
+  @include zen-grid-container;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.outer-container {
+  margin: auto;
+}

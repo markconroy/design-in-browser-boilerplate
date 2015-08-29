@@ -1,0 +1,15 @@
+/**
+ * @file
+ * This is the styling for .bgimg classes.
+ */
+
+ // Background for home.
+.bgimghome {
+  background: image-url('bg/home.jpg') no-repeat $col2 50% 0;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background: image-url('bg/bg1.jpg') no-repeat $col2 50% 0;
+  background-size: cover;
+}

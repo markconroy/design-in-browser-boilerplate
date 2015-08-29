@@ -1,0 +1,30 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3";
+@import "lib/fonts";
+@import "lib/mixins";
+@import "lib/extends";
+@import "normalize";
+@import "zen";
+@import "layout";
+
+// Sections
+@import "sections/header";
+@import "sections/nav";
+@import "sections/highlighted";
+@import "sections/sidebar-first";
+@import "sections/sidebar-second";
+@import "sections/footer";
+
+// Elements
+@import "elements/h";
+
+// Classes
+@import "classes/bgcol";
+@import "classes/bgimg";
+@import "classes/inner-outer";
+@import "classes/slider";
+@import "classes/video-wrapper";

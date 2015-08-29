@@ -1,0 +1,68 @@
+/**
+ * @file
+ * This is the styling for footer items.
+ */
+
+footer {}
+
+// Block layout in the footer
+footer {
+  // When there are two blocks in the footer
+  .region-footer .two-blocks {
+    @include breakpoint($medium) {
+      .block-1 {
+        @include zen-grid-item(6,1);
+      }
+      .block-2 {
+        @include zen-grid-item(6,6);
+      }
+    }
+  }
+  // When there are three blocks in the footer
+  .region-footer .three-blocks {
+    @include breakpoint($medium) {
+      .block-1 {
+        @include zen-grid-item(4,1);
+      }
+      .block-2 {
+        @include zen-grid-item(4,5);
+      }
+      .block-3 {
+        @include zen-grid-item(4,9);
+      }
+    }
+  }
+  // When four are three blocks in the footer
+  .region-footer .four-blocks {
+    @include breakpoint($medium) {
+      .block-1 {
+        @include zen-grid-item(6,1);
+      }
+      .block-2 {
+        @include zen-grid-item(6,6);
+      }
+      .block-3 {
+        @include zen-grid-item(6,1);
+        @include zen-clear(left);
+      }
+      .block-4 {
+        @include zen-grid-item(6,6);
+      }
+    }
+    @include breakpoint($large) {
+      .block-1 {
+        @include zen-grid-item(3,1);
+      }
+      .block-2 {
+        @include zen-grid-item(3,4);
+      }
+      .block-3 {
+        @include zen-grid-item(3,7);
+        clear: none;
+      }
+      .block-4 {
+        @include zen-grid-item(3,10);
+      }
+    }
+  }
+}

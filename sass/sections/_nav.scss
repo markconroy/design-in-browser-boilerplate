@@ -1,0 +1,40 @@
+/**
+ * @file
+ * This is the styling for the navigation selector.
+ */
+
+// Navigation region
+#nav {
+  background: $col2;
+}
+
+// Menu control (for mobile devices)
+#nav .menu-control {
+  text-align: center;
+}
+
+// Menu unorderlist styling
+#nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+// Menu items
+#nav ul li {
+  @extend %transition;
+  box-sizing: border-box;
+  display: block;
+  list-style: none;
+}
+
+// Menu links
+#nav ul li a {}
+
+// Set active menu items' colour.
+#about li.about a,
+#news li.news a,
+#home li.home a,
+#contact li.contact a {
+ color: $col1;
+}
