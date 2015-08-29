@@ -18,13 +18,14 @@ garishness of this at the moment - the colours there are only to show the
 different site areas.
 
 ### Sidebars
-Sidebars are a proof of concept, and only working on the homepage at the moment.
-For sidebars on hompage, edit includes/home.php  
-Sidebar left: change left-main-right.php to left-main.php  
-Sidebar right: change left-main-right.php to main-right.php  
-No sidebars: change left-main-right.php to main.php  
-Both sidebars: leave left-main-right.php as is
-@todo - create variables of these items so this template can be applied to any page
+To set the number of sidebars, edit the main.php file in the directory of your
+choice (we suggest starting with a clone of the starter-directory).  
+The sidebars are set by choosing a layout template. Presently there are four
+you can choose:  
+1) left-main-right.php - left sidebar, main content, and right sidebar  
+2) left-main.php - left sidebar and main content  
+3) main-right.php - main content and right sidebar  
+4) main.php - main content area only  
 
 ### Footer Blocks
 You can have 1, 2, 3, or 4 blocks in footer at the moment. To change footer layout
@@ -37,7 +38,9 @@ CSS has been added to lay the different layouts out accordingly.
 
 ### News Listing Page
 The news is laid out in a grid at the moment. to change this to a list, edit
-news/main.php changing news-grid.php to news-list.php
+news/main.php changing news-grid.php to news-list.php  
+The news page is not yet using the $mainContent variable for its content. This
+may change in the future (note - it probably will).
 
 ### Menu
 The menu has basic responsiveness built-in. It does not have a browser resize
