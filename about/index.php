@@ -1,11 +1,10 @@
 <?php include('../includes/meta.php'); ?>
-<?php include('../includes/header.php'); ?>
-<div class="region-left">
-  <div id="about">
+  <div class="page-wrapper">
+    <?php include('../includes/header.php'); ?>
     <?php include('../includes/nav.php'); ?>
+    <div class="inner-container">
+      <h2>About Us</h2>
+      <?php include ('main.php'); ?>
+    </div>
   </div>
-</div>
-<div class="region-right">
-  <?php include('main.php'); ?>
-</div>
-<?php include('../includes/layouts/footer/footer.php'); ?>
+  <?php include('../includes/layouts/footer/footer.php'); ?>
