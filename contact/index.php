@@ -4,7 +4,6 @@
   <?php include('../includes/nav.php'); ?>
   <div id="contact">
     <div class="inner-container">
-      <h2>Contact Us</h2>
       <?php include ('main.php'); ?>
     </div>
   </div>
