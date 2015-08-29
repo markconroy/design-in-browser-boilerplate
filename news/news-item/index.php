@@ -3,6 +3,6 @@
 <?php include('../../includes/nav.php'); ?>
 <div id="news"></div>
 <div class="inner-container">
-  <?php include('../news-styles/news-item-full.php'); ?>
+  <?php include('news-item-full.php'); ?>
 </div>
 <?php include('../../includes/layouts/footer/footer.php'); ?>
