@@ -1,0 +1,19 @@
+/**
+ * @file
+ * This is the styling for news items.
+ */
+
+.node-type-news .node-teaser {
+  .field-name-body {
+    overflow: hidden;
+  }
+  .field-name-field-main-image {
+    float: left;
+  }
+}
+
+.node-type-news .view-mode-full {
+  .field-name-field-main-image {
+    float: left;
+  }
+}
