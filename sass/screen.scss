@@ -11,6 +11,9 @@
 @import "zen";
 @import "layout";
 
+// Elements
+@import "elements/h";
+
 // Sections
 @import "sections/header";
 @import "sections/nav";
@@ -19,8 +22,8 @@
 @import "sections/sidebar-second";
 @import "sections/footer";
 
-// Elements
-@import "elements/h";
+// Content Types
+@import "content-types/news";
 
 // Views
 @import "views/view-grid";
