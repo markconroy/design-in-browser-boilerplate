@@ -19,20 +19,20 @@ different site areas.
 
 ### Sidebars
 Sidebars are a proof of concept, and only working on the homepage at the moment.
-For sidebars on hompage, edit includes/home.php
-Sidebar left: change left-main-right.php to left-main.php
-Sidebar right: change left-main-right.php to main-right.php
-No sidebars: change left-main-right.php to main.php
+For sidebars on hompage, edit includes/home.php  
+Sidebar left: change left-main-right.php to left-main.php  
+Sidebar right: change left-main-right.php to main-right.php  
+No sidebars: change left-main-right.php to main.php  
 Both sidebars: leave left-main-right.php as is
 @todo - create variables of these items so this template can be applied to any page
 
 ### Footer Blocks
 You can have 1, 2, 3, or 4 blocks in footer at the moment. To change footer layout
-edit inludes/footer.php
-One block: change 4-block.php to 1-block.php
-Two blocks: change 4-block.php to 2-block.php
-Three blocks: change 4-block.php to 3-block.php
-Four blocks: change 4-block.php to 4-block.php
+edit inludes/footer.php  
+One block: change 4-block.php to 1-block.php  
+Two blocks: change 4-block.php to 2-block.php  
+Three blocks: change 4-block.php to 3-block.php  
+Four blocks: change 4-block.php to 4-block.php  
 CSS has been added to lay the different layouts out accordingly.
 
 ### News Listing Page
