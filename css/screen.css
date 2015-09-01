@@ -793,9 +793,20 @@ header {
   box-sizing: border-box;
   display: block;
   list-style: none;
+  padding: 1rem;
+}
+@media (min-width: 960px) {
+  /* line 24, ../sass/sections/_nav.scss */
+  #nav ul li {
+    float: left;
+  }
+}
+/* line 33, ../sass/sections/_nav.scss */
+#nav ul li:hover, #nav ul li:focus {
+  background: red;
 }
 
-/* line 35, ../sass/sections/_nav.scss */
+/* line 43, ../sass/sections/_nav.scss */
 #about li.about a,
 #news li.news a,
 #home li.home a,

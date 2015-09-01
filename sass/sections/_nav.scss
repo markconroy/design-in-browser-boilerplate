@@ -26,6 +26,14 @@
   box-sizing: border-box;
   display: block;
   list-style: none;
+  padding: 1rem;
+  @include breakpoint($large) {
+    float: left;
+  }
+  &:hover,
+  &:focus {
+    background: $col1;
+  }
 }
 
 // Menu links
