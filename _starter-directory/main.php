@@ -15,6 +15,30 @@ $mainContent = '
 ';
 ?>
 
+<?php
+/**
+ * We define the content that is going to go in the content region here.
+ *
+ * This $sidebarLeft variable is then called in the template file and will
+ * then render what is placed in it.
+ */
+$sidebarLeft = '
+<p>stuff for sidebar left</p>
+';
+?>
+
+<?php
+/**
+ * We define the content that is going to go in the content region here.
+ *
+ * This $sidebarRight variable is then called in the template file and will
+ * then render what is placed in it.
+ */
+$sidebarRight = '
+<p>stuff for sidebar right</p>
+';
+?>
+
 <section>
   <div id="main" class="outer-container">
     <div class="inner-container">
